@@ -94,10 +94,30 @@
             a:visited, a:hover, a:active {
                 color: #ffb200;
             }
-
-
         .hovered {
             color: #000;
+        }
+        @media only screen and (max-width: 600px) {
+            h1, h2, h3, h4, h5 {
+                margin-bottom: 10vh;
+                margin-top: 10vh;
+            }
+
+            h1 {
+                font-size: 8.3vw;
+            }
+
+            h2 {
+                font-size: 7vw;
+            }
+
+            h3 {
+                font-size: 6vw;
+            }
+
+            h4 {
+                font-size: 5.5vw;
+            }
         }
     </style>
     <script>
@@ -112,8 +132,13 @@
                     hh.classList.remove('hovered');
                 }
             });
-
         });
+        function removeHash() {
+            window.setTimeout(function () {
+                history.pushState("", document.title, window.location.pathname
+                    + window.location.search);
+            }, 500);
+        }
     </script>
 </head>
 <body>
@@ -131,7 +156,8 @@
             <h3>Das Ergebnis sind konkrete, validierte und iterierte Ergebnisse. <span style="color: #ffb200">Für Wachstum, Umsatz, Produkte, Menschen, Prozesse und IT.</span></h3>
             <h3>Wir bei RePattern arbeiten "Skin in the Game": Wir wollen lieber an Ihrem Erfolg beteiligt sein, statt Stunden aufzuschreiben.</h3>
             <h2>Sind Sie bereit, den ersten Schritt aus dem Problemraum hinaus zu gehen? Dann setzen wir uns zu einem ersten <a href="mailto:hello@repattern.de">Call</a> zusammen.</h2>
-            <a href="#top">Ich will das nochmal lesen</a>
+            <a target="_blank" href="mailto:?subject=RePattern:+Sollten+wir+beauftragen&body=https://repattern.de+sie+können+uns+mit+XXXXX+helfen">Diese Seite per E-Mail teilen</a><br />
+            <a href="#top" onclick="removeHash()">Ich will das nochmal lesen</a>
             <hr>
             <br><br>
         </section>
