@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="RePattern-Logo.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 500 141.28371"
+   height="141.28371mm"
+   width="500mm">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:guide-bbox="true"
+     showguides="true"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="230.0698"
+     inkscape:cx="-1626.6618"
+     inkscape:zoom="0.175"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(2.2501984e-5)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       transform="matrix(2.2185275,0,0,2.2185275,1401.3986,-157.85842)"
+       id="g1060">
+      <text
+         xml:space="preserve"
+         style="font-size:36.0085px;line-height:1.25;font-family:Lovelo;-inkscape-font-specification:Lovelo;letter-spacing:1.61396px;fill:#545454;fill-opacity:1;stroke-width:0.900213"
+         x="-603.33649"
+         y="134.29802"
+         id="text922-2-7"><tspan
+           sodipodi:role="line"
+           id="tspan920-9-6"
+           x="-603.33649"
+           y="134.29802"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Lovelo;-inkscape-font-specification:'Lovelo Heavy';fill:#545454;fill-opacity:1;stroke-width:0.900213">REPATTERN</tspan></text>
+      <rect
+         y="75.657181"
+         x="-631.67963"
+         height="28.581865"
+         width="28.755617"
+         id="rect974-4"
+         style="fill:#ffb200;fill-opacity:1;stroke:none;stroke-width:4.98991" />
+      <rect
+         transform="rotate(14.171845)"
+         y="236.00812"
+         x="-551.34497"
+         height="9.3898048"
+         width="9.3898048"
+         id="rect976-1"
+         style="fill:#89cfef;fill-opacity:1;stroke:none;stroke-width:0.903356" />
+      <rect
+         style="fill:#fda50f;fill-opacity:1;stroke:none;stroke-width:3.30139"
+         id="rect974-3-9"
+         width="19.025023"
+         height="18.910065"
+         x="-598.25873"
+         y="71.154594" />
+    </g>
+  </g>
+</svg>

@@ -1,69 +1,166 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <title>RePattern</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
+    <link rel="icon"
+          type="image/ico"
+          href="favicon.ico">
+    <title>RePattern - For your business and growth</title>
     <style>
-      body{
-        font-family:"courier new";
-      }
-      #logo{
-        font-size:2vw;
-      }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: "Lovelo Black";
+            font-size: large;
+            width: 95%;
+            max-width: 1000px;
+            margin-left: 25px;
+            margin-right: 10px;
+            overflow-y: scroll;
+            margin-top: 0;
+            padding-top: 0;
+            color: #a4a4a4;
+        }
+
+        @font-face {
+            font-family: 'Lovelo Line Bold';
+            src: url('LoveloLineBold.otf') format('opentype');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Lovelo Black';
+            src: url('LoveloBlack.otf') format('opentype');
+            font-weight: 900;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Lovelo Line';
+            src: url('LoveloLineLight.otf') format('opentype');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        #header {
+            max-width: 100%;
+            background: white;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+            #header img {
+                width: 35%;
+                max-height: 200px;
+            }
+
+        #container {
+            margin-top: 50px;
+            text-align: left;
+            max-width: 85%;
+        }
+
+        h1, h2, h3, h4, h5 {
+            margin-bottom: 20vh;
+            margin-top: 20vh;
+        }
+
+        h1 {
+            font-size: 4.3vw;
+        }
+
+        h2 {
+            font-size: 4vw;
+        }
+
+        h3 {
+            font-size: 3vw;
+        }
+
+        h4 {
+            font-size: 2.5vw;
+        }
+
+        a {
+            color: #89cfef;
+        }
+
+            a:visited, a:hover, a:active {
+                color: #ffb200;
+            }
+
+
+        .hovered {
+            color: #000;
+        }
     </style>
-  </head>
-  <body>
+    <script>
+        window.addEventListener('scroll', function () {
+            var hhh = document.querySelectorAll('h1,h2,h3,h4,h5');
+            hhh.forEach(hh => {
+                if (Math.abs(hh.getBoundingClientRect().y - (window.innerHeight / 2) + (hh.getBoundingClientRect().height / 2)) < (window.innerHeight / 2.5)) {
+                    // yes, set the class
+                    hh.classList.add('hovered');
+                } else {
+                    // remove the class
+                    hh.classList.remove('hovered');
+                }
+            });
+
+        });
+    </script>
+</head>
+<body>
     <main>
-      <pre id="logo">
- ____      ____       _   _                  
-|  _ \ ___|  _ \ __ _| |_| |_ ___ _ __ _ __  
-| |_) / _ \ |_) / _` | __| __/ _ \ '__| '_ \ 
-|  _ <  __/  __/ (_| | |_| ||  __/ |  | | | |
-|_| \_\___|_|   \__,_|\__|\__\___|_|  |_| |_|
-      </pre>
-      <section>
-        No cookies were harmed during the loading of this page
-      </section>
-      <hr><br><br><br><br><br><br><br><br><br>
-            <small style="text-align:justify"><address>
-      - Angaben gemäß § 5 TMG -
-RePattern GbR
-Mai<span style="display:none">nichtzusehen</span>nzer Str. 23
-107<span style="display:none">nichtzusehen</span>15 Ber<span style="display:none">nichtzusehen</span>lin
-- Vertreten durch:
-Nils Kiehne, Valerio Neri
-- Kontakt:
-E-Mail: hello<strong><span style="display:none">nichtzusehen</span>@repattern<span style="display:none">nichtzusehen</span>.de</strong>
-- Haftungsausschluss:
+        <header id="header">
+            <img id="logo" src="RePattern-Logo.svg" onmouseover="animate(true)" onmouseout="animate(false)" />
+        </header>
+        <section id="container">
+            <h1 class="hovered">Viele Unternehmen glauben, dass sie Wachstum und Entwicklung des Geschäfts mit Management-Methoden und Frameworks von Beratern lösen können.</h1>
+            <h2>Wir sind überzeugt, dass jedes Unternehmen einen individuellen Weg gehen muss.</h2>
+            <h3>Der individuelle Weg startet beim <strong><abbr title="Wo müsste Ihr Unternehmen stehen?">Problemraum</abbr></strong>: Der muss verstanden werden, mit allen Ursachen.</h3>
+            <h3>Abhängig von der gewünschten und möglichen Zielrichtung wird der <abbr title="Wie kommt das Unternehmen dort hin, wo Sie es brauchen?">Lösungsraum</abbr> identifiziert, Annahmen validiert.</h3>
+            <h3>Wir begleiten die Umsetzung und befähigen das Unternehmen, den Weg selbstständig zu gehen.</h3>
+            <h3>Hierfür nehmen wir bewährte Methoden, wenden sie fallspezifisch an; wir beraten ehrlich und auf Augenhöhe.</h3>
+            <h3>Das Ergebnis sind konkrete, validierte und iterierte Ergebnisse. <span style="color: #ffb200">Für Wachstum, Umsatz, Produkte, Menschen, Prozesse und IT.</span></h3>
+            <h3>Wir bei RePattern arbeiten "Skin in the Game": Wir wollen lieber an Ihrem Erfolg beteiligt sein, statt Stunden aufzuschreiben.</h3>
+            <h2>Sind Sie bereit, den ersten Schritt aus dem Problemraum hinaus zu gehen? Dann setzen wir uns zu einem ersten <a href="mailto:hello@repattern.de">Call</a> zusammen.</h2>
+            <a href="#top">Ich will das nochmal lesen</a>
+            <hr>
+            <br><br>
+        </section>
 
-- Haftung für Inhalte -
+        <section>
+            <span style="color:#000">No cookies were harmed during the loading of this page</span>
 
-Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+            <br><br><br><br><br><br><br>
+            <small style="text-align:justify;padding:30px;margin:30px;">
+                    - Angaben gemäß § 5 TMG -
+                    RePattern GbR
+                    Mai<span style="display:none">nichtzusehen</span>nzer Str. 23
+                    107<span style="display:none">nichtzusehen</span>15 Ber<span style="display:none">nichtzusehen</span>lin
+                    - Vertreten durch:
+                    Nils Kiehne, Valerio Neri
+                    - Kontakt:
+                    E-Mail: hello<strong><span style="display:none">nichtzusehen</span>@repattern<span style="display:none">nichtzusehen</span>.de</strong>
+                    - Haftungsausschluss:
 
-- Haftung für Links -
+                    - Haftung für Inhalte -
 
-Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
-</address></small>
-    </main> 
-  </body>
+                    Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+
+                    - Haftung für Links -
+
+                    Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
+            </small>
+        </section>
+    </main>
+</body>
 </html>
