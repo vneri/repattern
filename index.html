@@ -23,7 +23,7 @@
             overflow-y: scroll;
             margin-top: 0;
             padding-top: 0;
-            color: #a4a4a4;
+            color: #000 /* #a4a4a4 */;
         }
 
         @font-face {
@@ -124,13 +124,19 @@
         window.addEventListener('scroll', function () {
             var hhh = document.querySelectorAll('h1,h2,h3,h4,h5');
             hhh.forEach(hh => {
-                if (Math.abs(hh.getBoundingClientRect().y - (window.innerHeight / 2) + (hh.getBoundingClientRect().height / 2)) < (window.innerHeight / 2.5)) {
+                var factor = Math.abs(hh.getBoundingClientRect().y - (window.innerHeight / 2) + (hh.getBoundingClientRect().height / 4));
+                var opacity = (hh.getBoundingClientRect().height / 4) / Math.abs(factor - (hh.getBoundingClientRect().height / 4));
+                hh.style.opacity = opacity;
+
+/*                if (factor < (window.innerHeight / 2.5)) {
                     // yes, set the class
+                    hh.style.opacity = opacity / (hh.getBoundingClientRect().height / 2);
                     hh.classList.add('hovered');
                 } else {
                     // remove the class
+                    hh.style.opacity = "0.1";
                     hh.classList.remove('hovered');
-                }
+                }*/
             });
         });
         function removeHash() {
