@@ -90,6 +90,7 @@
 
         a {
             color: #89cfef;
+            text-decoration-style: wavy;
         }
 
             a:visited, a:hover, a:active {
@@ -124,7 +125,9 @@
         }
     </style>
     <script>
-        window.addEventListener('scroll', function () {
+        setOpacity();
+        window.addEventListener('scroll',setOpacity);
+        function setOpacity() {
             var hhh = document.querySelectorAll('h1,h2,h3,h4,h5');
             hhh.forEach(hh => {
                 var factor = Math.abs(hh.getBoundingClientRect().y - (window.innerHeight / 2) + (hh.getBoundingClientRect().height / 4));
@@ -140,8 +143,8 @@
                                     hh.style.opacity = "0.1";
                                     hh.classList.remove('hovered');
                                 }*/
-            });
-        });
+            });            
+        }
         function removeHash() {
             window.setTimeout(function () {
                 history.pushState("", document.title, window.location.pathname
