@@ -13,8 +13,3 @@ Innovation comes through iteration and validation.
 Innovation comes when breaking patterns, forgetting the known, learning a new path.
 
 We are curious lifelong learners.
-
-# Problem space
-
-# Solution space
-
